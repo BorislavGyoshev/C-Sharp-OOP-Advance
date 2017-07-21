@@ -16,7 +16,7 @@ namespace _01_Shapes
         public int Height
         {
             get { return height; }
-            set
+            private set
             {
                 height = value;
             }
@@ -24,7 +24,7 @@ namespace _01_Shapes
         public int Width
         {
             get { return width; }
-            set
+            private set
             {
                 width = value;
             }
