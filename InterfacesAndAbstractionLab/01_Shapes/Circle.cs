@@ -14,7 +14,7 @@ namespace _01_Shapes
         public int Radius
         {
             get { return radius; }
-            set { radius = value; }
+            private set { radius = value; }
         }
 
 
